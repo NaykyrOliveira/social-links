@@ -1,0 +1,69 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+:root {
+    --highlight-color: rgba(255, 255, 255, 0.2);
+    --surface-color: rgba(255, 255, 255, 0.05);
+    --surface-color-hover: rgba(0, 0, 0, 0.02);
+    --stroke-color: rgba(255, 255, 255, 0.5);
+    --switch-bg-url: url(../img/moon-stars.svg);
+    --text-color: rgb(255, 255, 255);
+}
+
+.light {
+    --highlight-color: rgba(0, 0, 0, 0.2);
+    --surface-color: rgba(0, 0, 0, 0.05);
+    --surface-color-hover: rgba(0, 0, 0, 0.25);
+    --stroke-color: rgba(0, 0, 0, 0.5);
+    --switch-bg-url: url(../img/sun.svg);
+    --text-color: rgba(0, 0, 0);
+}
+
+body {
+    background: rgb(0, 0, 0) no-repeat top center/cover;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+body * {
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+canvas {
+    right: 0;
+    position: fixed;
+    top: 0;
+}
+
+.block-main-container {
+    position: relative;
+    z-index: 1;
+    margin: 3.5rem auto 0;
+    max-width: 36.75rem;
+    padding: 0 1.5rem;
+    width: 100%;
+}
+
+@keyframes slide-in {
+    from {
+        left: 0;
+    }
+    
+    to {
+        left: 50%;
+    }
+}
+
+@keyframes slide-back {
+    from {
+        left: 50%;
+    }
+    
+    to {
+        left: 0;
+    }
+}
+

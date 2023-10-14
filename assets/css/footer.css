@@ -1,0 +1,9 @@
+.block-footer-text {
+    font-size: 1rem;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.block-footer-text-link {
+    text-decoration: underline;
+}

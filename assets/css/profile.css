@@ -1,0 +1,20 @@
+.block-section-profile {
+    background: var(--surface-color);
+    backdrop-filter: blur(4px);
+    border: 1px solid var(--stroke-color);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.block-section-profile-img {
+    border: 3px solid var(--stroke-color);
+    border-radius: 50%;
+    width: 7.63rem;
+}
+
+.block-section-profile-text {
+    line-height: 1.5rem;
+    margin-top: 0.5rem;
+}

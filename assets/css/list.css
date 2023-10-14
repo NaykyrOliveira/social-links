@@ -1,0 +1,24 @@
+.block-unordered-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+.block-list-item-links {
+    align-items: center;
+    background: var(--surface-color);
+    backdrop-filter: blur(4px);
+    border: 1px solid var(--stroke-color);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    transition: background 0.2s;
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.block-list-item-links:hover {
+    background: var(--surface-color-hover);
+    border: 1px solid var(--text-color);
+}

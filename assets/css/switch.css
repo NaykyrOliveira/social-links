@@ -1,0 +1,39 @@
+.block-section-switch {
+    margin: 0.2rem auto;
+    position: relative;
+    width: 4rem;
+}
+
+.block-section-switch-button {
+    animation: slide-back 0.2s;
+    background: rgb(255, 255, 255) var(--switch-bg-url) no-repeat center;
+    border: 0;
+    border-radius:50% ;
+    height: 2rem;
+    left: 0;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 2rem;
+    z-index: 1;
+}
+
+.light
+.block-section-switch-button {
+    animation: slide-in 0.2s forwards;
+}
+
+.block-section-switch-button:hover {
+    outline: 0.5rem solid var(--highlight-color);
+}
+
+.block-section-switch-span {
+    background: var(--surface-color);
+    backdrop-filter: blur(4px);
+    border: 1px solid var(--stroke-color);
+    border-radius: 9999px;
+    display: block;
+    height: 1.5rem;
+    -webkit-backdrop-filter: blur(4px);
+    width: 4rem;
+}
