@@ -1,4 +1,4 @@
-<h1 align="center"> <a href="https://social-links-xi-brown.vercel.app/">SocialLinks</a> </h1>
+<h1 align="center"> <a href="https://social-links-xi-brown.vercel.app/" target="_blank">SocialLinks</a> </h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
