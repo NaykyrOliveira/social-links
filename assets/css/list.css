@@ -22,3 +22,14 @@
     background: var(--surface-color-hover);
     border: 1px solid var(--text-color);
 }
+
+@media screen and (max-width: 390px) {
+    .block-unordered-list {
+        gap: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .block-list-item-links {
+        padding: 0.9rem 1.5rem;
+    }
+}

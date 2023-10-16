@@ -7,3 +7,9 @@
 .block-footer-text-link {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 400px) {
+    .block-footer-text {
+        padding: 1.5rem 0;
+    }
+}
